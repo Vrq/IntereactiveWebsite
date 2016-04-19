@@ -74,41 +74,41 @@
 }
 
 #register {
-background: url("../button.png") repeat-x; 
-border-radius: 5px; 
-padding: 6px 18px; 
-border: none; 
-color: white; 
-cursor: pointer; 
-text-shadow: 0 1px 1px #666; 
+	background: url("../button.png") repeat-x; 
+	border-radius: 5px; 
+	padding: 6px 18px; 
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	text-shadow: 0 1px 1px #666; 
 
-font: bold 18px Helvetica; 
+	font: bold 18px Helvetica; 
 }
 
 #login {
-background: url("../button.png") repeat-x; 
-border-radius: 5px; 
-padding: 6px 18px; 
-border: none; 
-color: white; 
-cursor: pointer; 
-text-shadow: 0 1px 1px #666; 
+	background: url("../button.png") repeat-x; 
+	border-radius: 5px; 
+	padding: 6px 18px; 
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	text-shadow: 0 1px 1px #666; 
 
-font: bold 18px Helvetica; 
+	font: bold 18px Helvetica; 
 }
 
 #addguest a{
-background: url("../button.png") repeat-x; 
-text-decoration:none;
-border-radius: 5px; 
-padding: 6px 18px; 
-width: 150px;
-border: none; 
-color: white; 
-cursor: pointer; 
-text-shadow: 0 1px 1px #666; 
+	background: url("../button.png") repeat-x; 
+	text-decoration:none;
+	border-radius: 5px; 
+	padding: 6px 18px; 
+	width: 150px;
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	text-shadow: 0 1px 1px #666; 
 
-font: bold 18px Helvetica; 
+	font: bold 18px Helvetica; 
 }
 
 #dropdown li:hover {
@@ -118,7 +118,7 @@ font: bold 18px Helvetica;
 }
 
 #optionsMenu {
-float: right;
+	float: right;
 }
 
 
@@ -147,15 +147,18 @@ float: right;
 
 #pasekMenu {
 	position: relative;
-	border:2px dashed blue;
+	height: 100px;
+	float:left;
+	left: 5%;
 }
 
 #logButtons {
-	position: absolute;
+	position: relative;
 	margin-left: 10px;
 	float:right;
 	color: #0FF888;
 	font-size:20px;
+	right:1%
 }
 
 #logButtons a {

@@ -159,14 +159,17 @@ float: right;
 #pasekMenu {
 	position: relative;
 	height: 100px;
+	float:left;
+	left: 5%;
 }
 
 #logButtons {
-	position: absolute;
+	position: relative;
 	margin-left: 10px;
 	float:right;
 	color: #0FF888;
 	font-size:20px;
+	right:1%
 }
 
 #logButtons a {

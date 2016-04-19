@@ -70,7 +70,12 @@
 				  <a href='?controller=guests&action=register'><li id="register_button">Get Access</li></a>
 			</ul> 
 			
-			<div id="logButtons">	
+			
+			
+			
+		</div>
+		
+		<div id="logButtons">	
 				 <?php 
 					
 					if($_SESSION['loggedin']) {
@@ -80,11 +85,7 @@
 						echo '<p style="color:orange"><strong>Logged out</strong></p>' . '<p><a href="?controller=guests&action=login">Log in</a></p>';
 					}
 				?>
-			</div>
-			
-			
 		</div>
-		
 	
 		
 		<!--cool stuff: controller routing -->
